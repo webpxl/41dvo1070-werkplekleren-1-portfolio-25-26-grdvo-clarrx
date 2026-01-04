@@ -117,7 +117,7 @@ section h2 {
 }
 
 .choice {
-    background-color: #8c001a;
+    background: radial-gradient(circle, #b0122f, #8c001a);
     color: #f4f1ec;
 }
 
