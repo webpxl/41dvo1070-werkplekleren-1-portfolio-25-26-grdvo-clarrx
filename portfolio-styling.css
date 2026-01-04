@@ -8,7 +8,7 @@
 /* BODY */
 body {
     font-family: "Georgia", serif;
-    background-color: #8c001a;
+    background-color: #a00022;
     color: #2c1e1e;
 }
 
@@ -67,10 +67,7 @@ section h2 {
     line-height: 1.6;
 }
 
-/* SKILLS */
-.skills {
-    margin-top: 40px;
-}
+
 
 /* SCROLL CONTAINER */
 .skills-container {
@@ -113,4 +110,21 @@ section h2 {
         max-width: 420px;
         margin: 0 auto;
     }
+}
+/* KLEURVARIATIE SECTIES */
+.about {
+    background-color: #e2e1d8;
+}
+
+.choice {
+    background-color: #8c001a;
+    color: #f4f1ec;
+}
+
+.choice h2 {
+    color: #f4f1ec;
+}
+
+.skills {
+    background-color: #e2e1d8;
 }
