@@ -1,8 +1,116 @@
+/* RESET */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+/* BODY */
 body {
-    background-color: darkred;
-    color: white;
+    font-family: "Georgia", serif;
+    background-color: #8c001a;
+    color: #2c1e1e;
+}
+
+/* HERO */
+.hero {
+    background: radial-gradient(circle, #b0122f, #8c001a);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* PROFILE IMAGE */
+.profile {
+    width: 140px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50% / 60%;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SUBTITLE */
+.subtitle {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.subtitle span {
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    background-color: #e2e1d8;
+    padding: 40px 25px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* ABOUT */
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* SKILLS */
+.skills {
+    margin-top: 40px;
+}
+
+/* SCROLL CONTAINER */
+.skills-container {
+    max-height: 230px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* SCROLLBAR */
+.skills-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.skills-container::-webkit-scrollbar-thumb {
+    background-color: #3b2a24;
+    border-radius: 10px;
+}
+
+/* SKILL ITEM */
+.skill {
+    background-color: #3b2a24;
+    color: #ffffff;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 16px;
+}
+
+/* ICON */
+.skill .icon {
+    font-size: 18px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 768px) {
+    body {
+        max-width: 420px;
+        margin: 0 auto;
+    }
 }
