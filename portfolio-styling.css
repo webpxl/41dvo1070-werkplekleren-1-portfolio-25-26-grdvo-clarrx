@@ -134,13 +134,6 @@ section h2 {
 
 
 
-
-
-
-
-
-
-
 /* =========================
    POP-UP
 ========================= */
@@ -180,4 +173,167 @@ section h2 {
 
 .popup button:hover {
     background-color: #a00022;
+}
+
+/* =========================
+   SKILLS (DESIGN IDENTIEK)
+========================= */
+.skills-design {
+    background-color: #8c001a;
+    color: #e2e1d8;
+    padding: 80px 25px 100px;
+}
+
+/* TITELS */
+.skills-title {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.skills-subtitle {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: normal;
+}
+
+/* CONTAINER */
+.skills-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+/* WRAPPER */
+.skill-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* SKILL BLOK */
+.skill-icon {
+    width: 56px;
+    height: 56px;
+    background-color: #e2e1d8;
+    color: #8c001a;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* WITTE BALK */
+.skill-bar {
+    width: 56px;
+    height: 6px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 8px;
+}
+
+/* BRUINE INDICATOR */
+.skill-level {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: #3b2a24;
+    border-radius: 6px;
+}
+
+/* LEVELS */
+.level-40 { width: 40%; }
+.level-70 { width: 70%; }
+.level-75 { width: 75%; }
+.level-80 { width: 80%; }
+.level-85 { width: 85%; }
+
+/* VLAMMETJES (SVG) */
+.skill-flames {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+
+.flame {
+    width: 14px;
+    height: 14px;
+    color: #3b2a24; /* exact bruin */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+    background-color: #3b2a24; /* donkerbruin zoals skills */
+    color: #e2e1d8;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    display: block;
+    color: #e2e1d8;
+    text-decoration: none;
+    margin: 4px 0;
+    font-size: 15px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* =========================
+   TERUG NAAR BOVEN KNOP
+========================= */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #a00022;
+    color: #e2e1d8;
+    border: none;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none; /* pas zichtbaar bij scroll */
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    background-color: #4a362f;
 }
