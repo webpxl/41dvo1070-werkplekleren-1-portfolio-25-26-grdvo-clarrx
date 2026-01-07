@@ -2,17 +2,30 @@
 <html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <!-- Responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio</title>
-    <!-- Bootstrap CSS (CDN) -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="portfolio-styling.css" rel="stylesheet" >
-
-
+    <link href="portfolio-styling.css" rel="stylesheet">
 </head>
 <body>
 
+<!-- OPENKLAPBAAR MENU -->
+<nav class="nav">
+    <details>
+        <summary>Menu</summary>
+        <ul>
+            <li><a href="#over mij">Over mij</a></li>
+            <li><a href="#keuze studie">Waarom deze richting</a></li>
+            <li><a href="#mijn vakken">Mijn vakken</a></li>
+            <li><a href="#skills-design">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </details>
+</nav>
+
+<!-- WELCOME POPUP -->
 <div id="welcome-popup" class="popup-overlay">
     <div class="popup">
         <p>Hallo, welkom op mijn portfolio :)</p>
@@ -28,12 +41,13 @@
     </div>
 
     <p class="subtitle">
-        Digitale vormgeving<br>
-        <span>Larrx Calorio</span>
+
+        Larrx Caforio<br>
+        <span>Digitale vormgeving</span>
     </p>
 </header>
 
-<section class="about">
+<section id="over mij" class="about">
     <h2>Over mij</h2>
     <p>
         Ik ben Larrx, een eerstejaarsstudente aan het digitaal compartiment van PXL,
@@ -41,15 +55,15 @@
     </p>
 </section>
 
-<section class="choice">
+<section id="keuze studie" class="choice">
     <h2>Waarom deze richting gekozen?</h2>
     <p>
         Ik heb altijd een grote interesse gehad in de digitale wereld met een creatieve twist.
-        Na een kern analyse kwam deze richting eruit.
+        Na een kernanalyse kwam deze richting eruit.
     </p>
 </section>
 
-<section class="skills">
+<section id="mijn vakken" class="skills">
     <h2>Mijn vakken</h2>
 
     <div class="skills-container">
@@ -80,80 +94,105 @@
     </div>
 </section>
 
-<section class="skills-design">
+
+<section id="skills-design" class="skills-design">
     <h2 class="skills-title">Mijn skills</h2>
+
+    <!-- HARD SKILLS -->
     <h3 class="skills-subtitle">Hard skills</h3>
 
-    <div class="skills-icons">
-
-        <div class="skill-wrapper">
+    <div class="skills-grid">
+        <div class="skill-card">
             <div class="skill-icon">Ai</div>
-            <div class="skill-bar">
-                <span class="skill-level level-80"></span>
-            </div>
-            <div class="skill-flames">
-                <svg class="flame"><use href="asset/soul.svg"/></svg>
-
+            <p>Illustrator</p>
+            <div class="mini-bar">
+                <span class="level-80"></span>
             </div>
         </div>
 
-        <div class="skill-wrapper">
+        <div class="skill-card">
             <div class="skill-icon">Ps</div>
-            <div class="skill-bar">
-                <span class="skill-level level-70"></span>
-            </div>
-            <div class="skill-flames">
-                <svg class="flame"><use href="asset/soul.svg"/></svg>
+            <p>Photoshop</p>
+            <div class="mini-bar">
+                <span class="level-70"></span>
             </div>
         </div>
 
-        <div class="skill-wrapper">
-            <div class="skill-icon">Figma</div>
-            <div class="skill-bar">
-                <span class="skill-level level-85"></span>
-            </div>
-            <div class="skill-flames">
-                <svg class="flame"><use href="asset/soul.svg"/></svg>
+        <div class="skill-card">
+            <div class="skill-icon">Fg</div>
+            <p>Figma</p>
+            <div class="mini-bar">
+                <span class="level-85"></span>
             </div>
         </div>
 
-        <div class="skill-wrapper">
-            <div class="skill-icon">WS</div>
-            <div class="skill-bar">
-                <span class="skill-level level-40"></span>
-            </div>
-            <div class="skill-flames">
-                <svg class="flame"><use href="asset/soul.svg"/></svg>
+        <div class="skill-card">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <p>Web</p>
+            <div class="mini-bar">
+                <span class="level-40"></span>
             </div>
         </div>
 
-        <div class="skill-wrapper">
+        <div class="skill-card">
             <div class="skill-icon">MS</div>
-            <div class="skill-bar">
-                <span class="skill-level level-75"></span>
+            <p>Microsoft</p>
+            <div class="mini-bar">
+                <span class="level-75"></span>
             </div>
-            <div class="skill-flames">
-                <svg class="flame"><use href="asset/soul.svg"/></svg>
+        </div>
+    </div>
+
+    <!-- SOFT SKILLS -->
+    <h3 class="skills-subtitle soft-title">Soft skills</h3>
+
+    <div class="skills-grid">
+        <div class="skill-card soft">
+            <p>Klantvriendelijk</p>
+            <div class="mini-bar">
+                <span class="level-80"></span>
             </div>
         </div>
 
+        <div class="skill-card soft">
+            <p>Flexibel</p>
+            <div class="mini-bar">
+                <span class="level-75"></span>
+            </div>
+        </div>
+
+        <div class="skill-card soft">
+            <p>Zelfstandig</p>
+            <div class="mini-bar">
+                <span class="level-70"></span>
+            </div>
+        </div>
+
+        <div class="skill-card soft">
+            <p>Leergierig</p>
+            <div class="mini-bar">
+                <span class="level-70"></span>
+            </div>
+        </div>
+        <div class="skill-card soft">
+            <p>Creatief</p>
+            <div class="mini-bar">
+                <span class="level-85"></span>
+            </div>
+
+    </div>
     </div>
 </section>
 
 
-
-
-<footer class="footer">
+<footer id="contact" class="footer">
     <p>Contact</p>
     <a href="mailto:caforiolarrx@gmail.com">caforiolarrx@gmail.com</a>
     <a href="tel:+32497357504">+32 497 35 75 04</a>
 </footer>
 
-<button id="backToTop" aria-label="Terug naar boven">↑</button>
-
+<button id="backToTop">↑</button>
 
 <script src="script.js"></script>
 </body>
 </html>
-
-
