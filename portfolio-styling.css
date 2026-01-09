@@ -253,8 +253,47 @@ section {
     font-size: 16px;
 }
 
+/* =========================
+   HOBBY'S
+========================= */
+.hobbies {
+    background-color: #8c001a;
+    padding: 80px 25px 100px;
+    color: #e2e1d8;
+}
 
+.hobbies-title {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
 
+/* GRID */
+.hobbies-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* ITEM */
+.hobby-item {
+    text-align: center;
+}
+
+.hobby-item img {
+    width: 100%;
+    max-width: 220px;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-bottom: 18px;
+}
+
+/* TITEL */
+.hobby-item p {
+    font-size: 24px;
+}
 
 /* BACK TO TOP */
 #backToTop {
