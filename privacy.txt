@@ -1,0 +1,24 @@
+Privacyverklaring – Portfolio Larrx Calorio
+
+Deze website is een persoonlijke portfolio website gemaakt in het kader
+van de opleiding Digitale Vormgeving aan PXL.
+
+Verzamelde gegevens:
+Deze website verzamelt geen persoonlijke gegevens van bezoekers.
+Er zijn geen contactformulieren, geen login systemen en geen tracking tools.
+
+Cookies:
+Deze website gebruikt geen cookies.
+
+Externe diensten:
+De website wordt gehost via Netlify.
+Netlify kan technische gegevens verzamelen zoals IP-adressen
+voor het functioneren van de hostingdienst.
+
+Doel van de website:
+Deze website dient uitsluitend ter presentatie van schoolwerk
+en persoonlijke projecten.
+
+Contact:
+Voor vragen over privacy kan je contact opnemen via:
+caforiolarrx@gmail.com
