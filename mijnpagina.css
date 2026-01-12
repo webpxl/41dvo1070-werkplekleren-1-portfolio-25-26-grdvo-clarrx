@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #e2e1d8;
+    color: #8c001a;
+}
+
+ul hover {
+    color: #8c001a;
+}
+
+.bodem {
+    margin-bottom: 3rem;}
