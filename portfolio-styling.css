@@ -400,3 +400,19 @@ section {
     color: #3b2a24;
     max-width: 420px;
 }
+
+@media (max-width: 768px) {
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+}
