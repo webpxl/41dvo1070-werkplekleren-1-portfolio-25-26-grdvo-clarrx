@@ -1,0 +1,180 @@
+/* CASE 7 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #1a1a1a;
+}
+
+/* NAV */
+.nav {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 1000;
+}
+
+.nav summary {
+    background: #3b2a24;
+    color: #e2e1d8;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nav ul {
+    list-style: none;
+    background: #3b2a24;
+    margin-top: 6px;
+    border-radius: 8px;
+}
+
+.nav a {
+    display: block;
+    padding: 10px 14px;
+    color: #e2e1d8;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background: #5a3d32;
+}
+
+/* HERO */
+.hero {
+    background: radial-gradient(circle, #b0122f, #8c001a);
+    text-align: center;
+    padding: 50px 20px;
+    color: #e2e1d8;
+}
+
+
+
+
+.case7 {
+    background-color: #e2e1d8;
+    padding: 60px 25px;
+}
+
+.case7-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.case7 h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    color: #3b2a24;
+}
+
+.case-block {
+    background-color: #e2e1d8;
+    padding: 35px;
+    border-radius: 18px;
+    margin-bottom: 35px;
+    color: #3b2a24;
+}
+
+.case-block.dark {
+    background: radial-gradient(circle, #b0122f, #8c001a);
+    color: #e2e1d8;
+}
+
+.case-block h3 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.case-block h4 {
+    font-size: 26px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.case-block p {
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 18px;
+}
+
+.case-block ul {
+    padding-left: 20px;
+}
+
+.case-block li {
+    margin-bottom: 12px;
+    font-size: 17px;
+}
+
+/* GALERIJ */
+
+.case-gallery {
+    display: flex;
+    gap: 18px;
+    overflow-x: auto;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+
+.case-gallery img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 14px;
+    flex-shrink: 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .case7 h2 {
+        font-size: 34px;
+    }
+
+    .case-block h3 {
+        font-size: 26px;
+    }
+
+    .case-block h4 {
+        font-size: 22px;
+    }
+
+    .case-gallery img {
+        width: 220px;
+        height: 150px;
+    }
+
+}
+/* BACK TO TOP */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background: #a00022;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+/* FOOTER */
+.footer {
+    background: #3b2a24;
+    color: #e2e1d8;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer a {
+    display: block;
+    color: #e2e1d8;
+    text-decoration: none;
+}
